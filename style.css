@@ -18,6 +18,12 @@
 #background {
 	background-image: url("images.jpg");
 }
+
+#subtitle {
+	color: black;
+	text-align: center;
+	font-family: sans-serif;
+}
  
 .title {
 	color: white;
