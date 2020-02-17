@@ -43,3 +43,8 @@
 	font-weight: 600;
 	
 }
+
+.navbar a{
+	font-family: sans-serif;
+	font-weight: lighter;
+}
