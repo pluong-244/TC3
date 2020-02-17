@@ -8,6 +8,13 @@
 	background-color: yellow;
 }
 
+#left {
+	background-color: indianred;
+}
+
+#right {
+	background-color: lightcoral;
+}
 #background {
 	background-image: url("images.jpg");
 }
