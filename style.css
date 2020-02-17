@@ -22,15 +22,18 @@
 #subtitle {
 	color: black;
 	text-align: center;
-	
+}
+
+#favicon {
+	color: black;
+	font-weight: lighter;
+	font-family: sans-serif;
 }
  
 .center {
 	color: lightgoldenrodyellow;
 	align-items: center;
-	text-align: center;
-	
-	
+	text-align: center;	
 }
 
 
