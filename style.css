@@ -9,11 +9,11 @@
 }
 
 #left {
-	background-color: lightsalmon;
+	background-color: indianred;
 }
 
 #right {
-	background-color: lightcoral;
+	background-color: darksalmon;
 }
 #background {
 	background-image: url("images.jpg");
