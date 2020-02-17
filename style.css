@@ -11,3 +11,8 @@
 #background {
 	background-image: url("images.jpg");
 }
+ 
+.title {
+	color: white;
+	text-align: center;
+}
