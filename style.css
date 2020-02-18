@@ -8,13 +8,6 @@
 	background-color: yellow;
 }
 
-#left {
-	background-color: rgb(201,150,107);
-}
-
-#right {
-	background-color: darksalmon;
-}
 #background {
 	background-image: url("images.jpg");
 }
