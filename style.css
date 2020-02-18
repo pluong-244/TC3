@@ -8,12 +8,43 @@
 	background-color: yellow;
 }
 
+#left {
+	background-color: indianred;
+}
+
+#right {
+	background-color: darksalmon;
+}
 #background {
 	background-image: url("images.jpg");
 }
+
+#subtitle {
+	color: black;
+	text-align: center;
+}
+
+#favicon {
+	color: black;
+	font-weight: lighter;
+	font-family: sans-serif;
+}
  
+.center {
+	color: lightgoldenrodyellow;
+	align-items: center;
+	text-align: center;	
+}
+
 .title {
 	color: white;
 	text-align: center;
-	font:;
+	font-weight: 600;
+	
 }
+
+.navbar a{
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
