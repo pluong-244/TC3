@@ -14,4 +14,3 @@ var slideUp1 = {
 
 ScrollReveal().reveal('#right', slideUp1)
 ScrollReveal().reveal('#left', slideUp2)
-ScrollReveal().reveal('#main-panel', slideUp2)
