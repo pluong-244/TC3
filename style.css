@@ -9,7 +9,7 @@
 }
 
 #left {
-	background-color: indianred;
+	background-color: rgb(201,150,107);
 }
 
 #right {
@@ -28,6 +28,13 @@
 	color: black;
 	font-weight: lighter;
 	font-family: sans-serif;
+}
+
+#main-panel {
+	height: 100vh; 
+	background-image: url('cutting-board-with-veg.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
 }
  
 .center {
