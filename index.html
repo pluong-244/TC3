@@ -9,28 +9,90 @@
     </head>
 
     <body>
-            <!-- Just an image -->
-        <nav class="navbar navbar-light bg-light" id="navbar">
+        
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar">
             <a class="navbar-brand" href="#">
-                <img src="ezcook.ico" width="30" height="30" class="d-inline-block align-top" alt="">
+              <img src="ezcook.ico" width="30" height="30" class="d-inline-block align-top" alt="">
                  EZ-COOK 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Chefs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Menu</a>
+                </li>
+              </ul>
+            </div>
+
+            <form class="form-inline">
+              <input class="form-control mr-md-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
         </nav>
 
+        <!-- Main Panel -->
         <div class="container-fluid">
     			<div class="row align-items-center" id="main-panel">
     				<div class="col-md-2" id="blue"></div>
     				  <div class="col-md-8 d-flex justify-content-center">
-    					 <h1 class="title">Hungry? <br></br> We Cook 4 You!</h1>
+    					  <h1 class="title"> 
+                  <p id="title-text-a">
+                    Hungry?
+                  </p> 
+                  <br>
+                  <p id="title-text-b"> 
+                    We Cook 4 You!
+                  </p>
+                </h1>
     				  </div>
     				<div class="col-md-2" id="blue"></div>
     			</div>
 		    </div>
-        <div class="container-fluid" style="background: transparent;">
+
+
+        <!-- Bottom Cards -->
+        <div class="container-fluid p-3" style="background: dark;">
           <div class="row">
+            <div class="col-md-6">
+              <div class="card w-100 bg-dark text-white" id="left">
+                <div class="card-body">
+                  <h5 class="card-title">Our Services</h5>
+                  <p class="card-text">
+                    Have you ever come back to your house after a long day of work, hungry and exhausted,
+                    only to find an empty fridge? 
+                    <br><br>
+                    With our service, you will have some of the best chefs in the region cook for you. 
+                    <br><br>
+                    You won't have to lay a finger on the cutting board.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card w-100 bg-dark text-white" id="right">
+                <div class="card-body">
+                  <h5 class="card-title">Hesitate no more</h5>
+                  <p class="card-text">We have 30 highly experienced chefs ready to cater in-home or for pick-up.</p>
+                  <a href="#" class="btn btn-primary">Hire a Chef</a>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+        <!-- <div class="row">
             <div class="col-md-6" id="left">
               <h2 id="subtitle">Our Service</h2>
               Have you ever come back to your house after a long day of work, hungry and exhausted,
@@ -44,8 +106,7 @@
                 <button type="button" class="btn btn-warning btn-lg">Hire A Chef Now!</button>
               </div>
             </div> 
-          </div>
-        </div>
+          </div> -->
 
       </div>
       <script src="https://unpkg.com/scrollreveal"></script>

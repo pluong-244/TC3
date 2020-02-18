@@ -8,10 +8,10 @@ or don't want to spend time cooking.
 
 Dependencies:
 Bootstrap and a significatn amount of Bootstrap starter code were used in this project, Stack Overflow was also used when debugging and attempting to understand the code we were using. The project was
-tested on Google Chrome and on Safari.
+tested on Google Chrome and on Safari. This project also requires the ScrollReveal js library
 
 Authors:
 Phuong Luong, Dylan Hayton-Ruffner, Elliot Ketchel
 
 Acknowledgements:
-The idea for the business was our own. Ideas for design were taken from Bootstrap, Stackoverflow, and were thought of by the authors.
+The idea for the business was our own. Ideas for design were taken from Bootstrap, Stackoverflow, and were thought of by the authors. Bootstrap tutorials were particularly useful. Thank you to Scroll Reveal for js animations.
